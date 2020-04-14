@@ -196,7 +196,7 @@ const Layout = props => __jsx("div", {
     lineNumber: 11,
     columnNumber: 5
   }
-}), props.children);
+}), props.content);
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
 
@@ -1897,22 +1897,26 @@ var _jsxFileName = "/Users/tatsuya/study/next/next-pages/pages/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
+
+const indexPageContent = __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 5,
+    columnNumber: 26
+  }
+}, "Hello Next.js");
+
 function Index() {
   return __jsx(_components_MyLayout__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    content: indexPageContent,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7,
+      lineNumber: 9,
       columnNumber: 5
     }
-  }, __jsx("p", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8,
-      columnNumber: 7
-    }
-  }, "Hello Next.js"));
+  });
 }
 
 /***/ }),

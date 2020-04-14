@@ -196,7 +196,7 @@ const Layout = props => __jsx("div", {
     lineNumber: 11,
     columnNumber: 5
   }
-}), props.children);
+}), props.content);
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
 
@@ -1894,22 +1894,26 @@ var _jsxFileName = "/Users/tatsuya/study/next/next-pages/pages/about.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
+
+const aboutPageContent = __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 3,
+    columnNumber: 26
+  }
+}, "This is the about page");
+
 function About() {
   return __jsx(_components_MyLayout__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    content: aboutPageContent,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5,
+      lineNumber: 7,
       columnNumber: 5
     }
-  }, __jsx("p", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6,
-      columnNumber: 7
-    }
-  }, "This is the about page"));
+  });
 }
 
 /***/ }),
