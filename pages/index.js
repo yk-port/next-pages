@@ -1,12 +1,11 @@
 import Link from 'next/link'
 
-import Header from '../components/Header'
+import Layuot from '../components/MyLayout'
 
 export default function Index() {
   return (
-    <div>
-      <Header />
+    <Layuot>
       <p>Hello Next.js</p>
-    </div>
+    </Layuot>
   );
 }

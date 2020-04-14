@@ -1,10 +1,9 @@
-import Header from '../components/Header'
+import Layuot from '../components/MyLayout'
 
 export default function About() {
   return (
-    <div>
-      <Header />
+    <Layuot>
       <p>This is the about page</p>
-    </div>
+    </Layuot>
   )
 }
