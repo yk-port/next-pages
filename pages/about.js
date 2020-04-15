@@ -1,9 +1,9 @@
-import Layuot from '../components/MyLayout'
-
-const aboutPageContent = <p>This is the about page</p>;
+import Layout from '../components/MyLayout.js';
 
 export default function About() {
-  return (
-    <Layuot content={aboutPageContent} />
+  return  (
+    <Layout>
+      <p>This is the about page</p>
+    </Layout>
   )
 }
